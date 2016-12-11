@@ -1,0 +1,3 @@
+* Added LICENSE file
+* Updated copyright and NO LIABILITY information.
+* Renamed from Geophysics Analysis Project into Geospace Analysis Project

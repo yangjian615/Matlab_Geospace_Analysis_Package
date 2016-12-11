@@ -1,0 +1,4 @@
+syntax: glob
+.DS_Store
+Bz300\.jpg
+Bz300\.mat
