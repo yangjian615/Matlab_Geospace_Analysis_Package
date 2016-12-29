@@ -39,6 +39,7 @@ end
 figure;
 hold on;
 
+%°²×° mapping toolbox
 % If the mapping toolbox is not available, use non-mapping toolbox
 % functions to plot the globe and lines.
 if ~license('test', 'MAP_Toolbox')

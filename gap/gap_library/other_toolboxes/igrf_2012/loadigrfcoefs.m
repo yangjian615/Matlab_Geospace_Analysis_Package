@@ -58,7 +58,8 @@ time = timevec(1) + (time - datenum([timevec(1) 1 1]))./(365 + double(...
 % end
 
 % Get the nearest epoch that the current time is between.
-lastepoch = find(time - mod(time, 5) == years);
+
+lastepoch = find(time - mod(time, 5) == years(1,:));
 if lastepoch == length(years)
     lastepoch = lastepoch - 1;
 end
