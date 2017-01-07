@@ -23,9 +23,13 @@ function gh_coeffs = gap_prepare_igrf()
 
 %% ========================================================================
 
-load gap_igrf_gh_coefficients.mat;
-gh_coeffs = gap_igrf_GH_coefficients;
-clear gap_igrf_GH_coefficients;
+% load gap_igrf_gh_coefficients.mat;
+% gh_coeffs = gap_igrf_GH_coefficients;
+% clear gap_igrf_GH_coefficients;
+
+load ../other_toolboxes/IGRF11/IGRF/GHcoefficients.mat;
+gh_coeffs = gh;
+clear gh;
 
 end
 
